@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build bioheat",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-I",
+                "./eigen",
+                "4july.cpp",
+                "-o",
+                "4july.exe"
+                
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+                
+            ]
+        }
+    ]
+}
+
