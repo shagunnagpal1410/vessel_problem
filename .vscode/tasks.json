@@ -8,9 +8,9 @@
             "args": [
                 "-I",
                 "./eigen",
-                "4july.cpp",
+                "7july.cpp",
                 "-o",
-                "4july.exe"
+                "7july.exe"
                 
             ],
             "group": {
